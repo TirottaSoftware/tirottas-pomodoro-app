@@ -1,20 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Configuration;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//Tirotta's Pomodoro App 
 namespace Countdown
 {
-    //Tirotta's Pomodoro App 
-    //App version:  1.1.0 
-    //Version code: A280920.0
     public partial class Pomodoro : Form
     {
         Timer taskTimer = new Timer();
